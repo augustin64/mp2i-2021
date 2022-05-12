@@ -1,0 +1,4 @@
+[submodule "personal"]
+	path = personal
+	url = https://github.com/augustin64/mp2i-2021-personal
+	branch = main
