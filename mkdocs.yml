@@ -1,18 +1,8 @@
-site_name: "Cours d'informatique en MP2I au lycée Fénelon Sainte-Marie"
+site_name: "Cours d'informatique en MP2I"
 site_url: https://mp2i-fsm.github.io/mp2i-2021
 repo_url: https://github.com/fortierq/mp2i-2021
 edit_uri: ""
 nav:
-  - Binder: https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain
-  - Basthon: https://notebook.basthon.fr/ocaml
-  - Librairie: https://github.com/fortierq/mp2i-library
-  - Intro:
-    - Cours du stage de prérentrée: 0_intro/stage/stage.md
-    - Exercices du stage de prérentrée: 0_intro/stage/exos_python.ipynb
-    - Introduction à la MP2I: 0_intro/0_intro.md
-    - Utilisation de Jupyter: 0_intro/1_jupyter.ipynb
-    - Rendu des TPs: 0_intro/2_rendu_tp.ipynb
-    - Installer Jupyter: 0_intro/install.md
   - OCaml:
     - Cours:
       - 1_ocaml/1_variables.ipynb
@@ -23,6 +13,7 @@ nav:
       - 1_ocaml/6_boucles.ipynb
       - 1_ocaml/7_array_string.ipynb
       - 1_ocaml/8_types_construits.ipynb
+      - 11_tp_additional/module/module.ipynb
     - Exercices: 
       - 1_ocaml/tp/tp1.ipynb
       - 1_ocaml/tp/tp2.ipynb
@@ -30,7 +21,7 @@ nav:
       - 1_ocaml/tp/tp4.ipynb
       - 1_ocaml/tp/tp5.ipynb
       - 1_ocaml/tp/tp6.ipynb
-  - Analyse d'algo.:
+  - Analyse de programme:
     - Cours:
       - Complexité: 2_analyse_programme/1_complexite/complexite.md
       - Preuve de programme: 2_analyse_programme/2_preuve/preuve.md
@@ -81,7 +72,7 @@ nav:
       - "File de priorité et tas": 5_arbre/5_heap/heap.md
     - Exercices:
       - 5_arbre/tp_td/tp1_arbre_binaire.ipynb
-      - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/preuve_arbre.md
+      - "TD 2 : Preuves sur les arbres": 5_arbre/tp_td/td2_preuves/td_preuve_arbre.md
       - 5_arbre/tp_td/tp3_arbre.ipynb
       - "TD 4 : Parcours et arbre binaire de recherche": 5_arbre/tp_td/td4_parcours/td_parcours.md
       - "TD 5 : Arbre binaire de recherche équilibré": 5_arbre/tp_td/td5_balanced/td_balanced.md
@@ -105,13 +96,16 @@ nav:
       - "Algorithmes gloutons": 7_algo/1_greedy/algo_greedy.md
       - "Diviser pour régner": 7_algo/2_divide_conquer/divide_conquer.md
       - "Programmation dynamique": 7_algo/3_dyn_prog/dyn_prog.md
+    - Exercices:
+      - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
+      - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
+  - "Algorithmique du texte":
+    - Cours:
       - "Recherche de mot dans un texte": 8_string/1_search/search.md
       - "Compression de texte": 8_string/2_compression/compression.md
       - 8_string/2_compression/compression_code.ipynb
     - Exercices:
-      - "TD 1 : Algorithmes gloutons et diviser pour régner": 7_algo/2_divide_conquer/td/td_div_greedy.md
-      - "TD 2 : Programmation dynamique": 7_algo/3_dyn_prog/td/TD_programmation_dynamique.md
-      - "TD 3 : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
+      - "TD : Algorithmique sur les chaînes de caractères": 8_string/td/td_string_search.md
       - 8_string/tp/tp1_string_search.ipynb
       - 8_string/td/cmp22.ipynb
   - Logique:
@@ -139,13 +133,8 @@ nav:
       - 10_sql/pokemon/pokemon.ipynb
       - 10_sql/sdss/sdss.md
       - 10_sql/sqlzoo/sqlzoo.md
-  - "Fin d'année":
-    - 8_string/td/cmp22.ipynb
-    - 9_logic/td/solver/solver.ipynb
-    - 11_tp_additional/module/module.ipynb
-    - 11_tp_additional/revision_ccb/revision_ccb.ipynb
-    - Oraux blancs: colles/oral_blanc.md
   - DS:
+    - colles/oral_blanc.md
     - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
     - "DS 9 : Code": ds/ds9/cor/agreg_22_sujet0_cor.ipynb
     - "DS 8 : Corrigé": ds/ds8/cs14_cor.md

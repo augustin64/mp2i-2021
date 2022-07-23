@@ -1,23 +1,20 @@
-[**Faire le sujet zero CCP à partir de la question 12**](https://replit.com/@fortierq/CCPzero#main.c)  
-La fonction de Q13 doit être de type `bool possible(Domino Di, Domino Dj)`.
+Programmer : [Binder](https://mybinder.org/v2/gh/fortierq/mp2i-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffortierq%252Fmp2i-2021%26urlpath%3Dlab%252Ftree%252Fmp2i-2021%252F%26branch%3Dmain) | [Basthon](https://notebook.basthon.fr/ocaml) | [repl.it](https://replit.com/languages/c)
 
-[Notes et classements (avec DS 9)](https://share.streamlit.io/fortierq/notes-mp2i/grade.py)
-
-[Une vidéo très claire sur la FFT (transformée de Fourier rapide) pour multiplier deux polynômes de degré $n$ en O($nlog(n)$)](https://www.youtube.com/watch?v=h7apO7q16V0). Cela utilise beaucoup de notions de math et d'info : racines de l'unité, polynômes, inverse de matrice, diviser pour régner, récursivité...
+Exos : [https://ocaml.org/problems](https://ocaml.org/problems)
+ 
+Librairie des algorithmes de MP2I : [en OCaml](https://github.com/fortierq/mp2i-library-ocaml) | [en C](https://github.com/fortierq/mp2i-library-c)  
 
 Concours MPI : [ENS](https://diplome.di.ens.fr/informatique-ens) | [Mines Pont](https://www.concoursminesponts.fr/resources/pre%CC%81-Notice-MPI-2023-V1.0.pdf) | [CCP](https://www.concours-commun-inp.fr/fr/epreuves/les-epreuves-ecrites.html)
 
-Exercices d'entraînement programmation/algorithmique : [codewars](https://www.codewars.com/) | [leetcode](https://leetcode.com)
-
-# Cours d'informatique en MP2I
-
-Sur ce site, vous trouverez un cours et des exercices corrigés correspondant au nouveau programme d'informatique en MP2I.  
-Les langages au programme sont OCaml, C et SQL.  
-
 [Programme officiel](https://prepas.org/index.php?document=73)
 
-[Poser des questions](https://github.com/mp2i-fsm/mp2i-2021/discussions)
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.4.4/joint.js"></script>
 
-[Rendu de TP](https://mp2i-fsm.github.io/mp2i-2021/0_intro/2_rendu_tp)
+<body>
+    <div id="graph" style="height: 400px; width: 800px; margin: 0px auto;"></div>
+    <script src="graph_mp2i/graph.js"></script>
+</body>
 
-[Utiliser Jupyter](https://mp2i-fsm.github.io/mp2i-2021/0_intro/install)
