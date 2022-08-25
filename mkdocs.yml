@@ -1,7 +1,8 @@
 site_name: "Cours d'informatique en MP2I"
-site_url: https://mp2i-fsm.github.io/mp2i-2021
-repo_url: https://github.com/fortierq/mp2i-2021
+site_url: https://mp2i-info.github.io
+repo_url: https://github.com/mp2i-info/mp2i-info.github.io
 edit_uri: ""
+docs_dir: files
 nav:
   - OCaml:
     - Cours:
@@ -13,7 +14,7 @@ nav:
       - 1_ocaml/6_boucles.ipynb
       - 1_ocaml/7_array_string.ipynb
       - 1_ocaml/8_types_construits.ipynb
-      - 11_tp_additional/module/module.ipynb
+      - B_tp_additional/module/module.ipynb
     - Exercices: 
       - 1_ocaml/tp/tp1.ipynb
       - 1_ocaml/tp/tp2.ipynb
@@ -39,9 +40,7 @@ nav:
       - "TD 3 : cycle dans une liste chaînée": 3_structure_sequentielle/td/td_structures3/td_structures3.md
       - "TD 4 : table de hachage": 3_structure_sequentielle/td/cs_hachage/hachage_cs18_cor.md
   - C: 
-    #- Références: 4_c/0_references.md
     - Cours:
-      - 4_c/cours/0_intro.md
       - 4_c/cours/1_type_base.ipynb
       - Représentation des entiers: 4_c/cours/1_representation/representation_entiers.md
       - Représentation des flottants: 4_c/cours/1_representation/representation_flottants.md
@@ -84,7 +83,7 @@ nav:
     - "Représentations": 6_graph/2_representation/2_representation.md
     - "Parcours": 6_graph/3_traversal/3_traversal.md
     - "Plus courts chemins": 6_graph/4_shortest_path/graph_shortest_path.md
-    - "Cours de graphes en info commune (Python)": https://fortierq.github.io/itc1/files/5_graph/1_definition/1_graph/
+    - "Cours de graphes en info commune (Python)": https://fortierq.github.io/itc1/5_graph/1_definition/1_graph/
     - TP/TD:
       - "TD 1 : Définitions": 6_graph/td/1_definition/td_graphes1.md
       - "TD 2 : Représentations et parcours": 6_graph/td/2_representation_traversal/td_graphes2.md
@@ -122,17 +121,18 @@ nav:
       - 9_logic/td/solver/solver.ipynb
   - SQL:
     - Cours:
-      - "Cours 1 : Une seule table": 10_sql/1_select/sql_select.md
-      - "Cours 2 : Plusieurs tables": 10_sql/2_join/sql_join.md
-      - "Cours 3 : GROUP BY": 10_sql/3_groupby/sql_groupby.md
-      - "Cours 4 : SELECT imbriqués": 10_sql/4_imbrique/sql_imbrique.md
-      - "Cours 5 : Modèle entité-association": 10_sql/5_er/er.md
-      - Résumé: 10_sql/resume/sql_resume.md
+      - "Cours 1 : Une seule table": A_sql/1_select/sql_select.md
+      - "Cours 2 : Plusieurs tables": A_sql/2_join/sql_join.md
+      - "Cours 3 : GROUP BY": A_sql/3_groupby/sql_groupby.md
+      - "Cours 4 : SELECT imbriqués": A_sql/4_imbrique/sql_imbrique.md
+      - "Cours 5 : Modèle entité-association": A_sql/5_er/er.md
+      - Résumé: A_sql/resume/sql_resume.md
     - Exercices:
-      - 10_sql/metro/metro.ipynb
-      - 10_sql/pokemon/pokemon.ipynb
-      - 10_sql/sdss/sdss.md
-      - 10_sql/sqlzoo/sqlzoo.md
+      - A_sql/metro/metro.ipynb
+      - A_sql/pokemon/pokemon.ipynb
+      - A_sql/sdss/sdss.md
+      - A_sql/sqlzoo/sqlzoo.md
+      - Énigme à résoudre en SQL : https://mystery.knightlab.com
   - DS:
     - colles/oral_blanc.md
     - "DS 9 : Corrigé": ds/ds9/cor/ds9_cor.md
@@ -154,15 +154,15 @@ nav:
     - "DS 2 : Classement": ds/ds2/rank_ds2.png
     - "DS 1 : OCaml, complexité, algorithmique": ds/ds1/ds1.md
     - "DM 2 : Multiplication de polynômes et FFT": dm/fft/fft.md
-    - "DM 2 : Corrigé": https://github.com/mp2i-fsm/mp2i-2021/blob/main/dm/fft/fft.ml
+    - "DM 2 : Corrigé": https://github.com/mp2i-info/mp2i-info.github.io/blob/main/dm/fft/fft.ml
 plugins:
   - mkdocs-jupyter
   - search
 theme:
   name: material
-  custom_dir: overrides
-  logo: icon.png
-  favicon: icon.png
+  custom_dir: files/site/overrides
+  logo: site/mp2i.png
+  favicon: site/mp2i.png
   features:
     - navigation.instant
     - content.code.annotate
@@ -202,4 +202,4 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  - stylesheets/extra.css
+  - site/stylesheets/extra.css
